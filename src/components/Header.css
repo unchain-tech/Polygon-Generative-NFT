@@ -1,0 +1,38 @@
+.heading {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px auto;
+    margin-bottom: 0px;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(-70deg,#a2facf,#64acff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header .subheading {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.subheading a {
+    color: white;
+}
+
+.os-button {
+    margin: 20px auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: #1868b7;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.os-button a {
+    color: white;
+    text-decoration: none;
+}
