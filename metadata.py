@@ -56,7 +56,7 @@ def get_attribute_metadata(metadata_path):
     df.columns = [clean_attributes(col) for col in df.columns]
 
     # Get zfill count based on number of images generated
-    zfill_count = len(str(df.shape[0]))
+    zfill_count = len(str(df.shape[0] - 1))
 
     return df, zfill_count
 
