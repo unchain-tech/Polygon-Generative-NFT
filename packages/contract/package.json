@@ -4,7 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx hardhat test"
+    "test": "npx hardhat test",
+    "run:contract": "npx hardhat run scripts/run.js",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "deploy:mumbai": "npx hardhat run scripts/deploy.js --network mumbai",
+    "clean": "npx hardhat clean",
+    "verify:sepolia": "npx hardhat verify --network sepolia 0x4446F5F90A782174ab6b12C1a9758CB23443A028 ipfs://QmZbWNKJPAjxXuNFSEaksCJVd1M6DaKQViJBYPK2BdpDEP/",
+    "verify:mumbai": "npx hardhat verify --network mumbai 0xFD1035BFf7F4825c99c8cBC6fDAACDdca21DC3Ec ipfs://QmZbWNKJPAjxXuNFSEaksCJVd1M6DaKQViJBYPK2BdpDEP/",
+    "solhint": "solhint --max-error 0 -c ./.solhint.json \"contracts/**/*.sol\"",
+    "solhint:fix": "solhint --fix --max-error 0 -c ./.solhint.json \"contracts/**/*.sol\""
   },
   "keywords": [],
   "author": "",
@@ -25,8 +33,13 @@
     "hardhat": "^2.13.0",
     "hardhat-gas-reporter": "^1.0.9",
     "solidity-coverage": "^0.8.2",
+    "solhint": "3.3.7",
     "ts-node": "^10.9.1",
     "typechain": "^8.1.1",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "dotenv": "^16.0.3"
   }
 }
