@@ -1,15 +1,9 @@
-# Collectible NFT demo
+## 💬 Polygon-Generative-NFT(prototype)
 
-![](https://i.imgur.com/CRh7S5E.png)
+本レポジトリは Polygon-Generative-NFT の完成版を示したものになります。
 
-このデモを立ち上げるには、下記のステップを実行してください。
+以下の手順を実行することで Polygon-Generative-NFT の挙動を確認できます。
 
-1. あなたの Github アカウントにこのレポジトリをフォークしましょう。
+### レポジトリのクローン
 
-2. クローンしたレポジトリをあなたのローカル環境にダウンロードしましょう。
-
-3. ターミナルを開き、ディレクトリのルートで `npm install` を実行します。
-
-4. `npm run start` を実行してプロジェクトを開始します。
-
-5. コーディングを始めましょう。
+[こちら](https://github.com/unchain-tech/Polygon-Generative-NFT.git)から Polygon-Generative-NFT をクローンします。
