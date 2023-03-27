@@ -6,7 +6,6 @@ const { API_URL, PRIVATE_KEY, ETHERSCAN_API, POLYGON_URL } = process.env;
 
 module.exports = {
   solidity: '0.8.17',
-  defaultNetwork: 'sepolia',
   networks: {
     sepolia: {
       url: API_URL || '',
@@ -18,6 +17,6 @@ module.exports = {
     },
   },
   etherscan: {
-    apiKey: ETHERSCAN_API,
+    apiKey: ETHERSCAN_API || '',
   },
 };
