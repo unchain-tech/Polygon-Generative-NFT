@@ -1,0 +1,10 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "\"generative nft library\"",
+  "private": true,
+  "scripts":{
+    "generate:NFT":"python3 nft.py",
+    "generate:JSON":"python3 metadata.py"
+  }
+}
