@@ -1,3 +1,4 @@
+import { ethers } from 'ethers';
 import { useEffect, useState } from 'react';
 
 import './App.css';
@@ -5,7 +6,6 @@ import contract from './contracts/NFTCollectible.json';
 
 const contractAddress = '0xFD1035BFf7F4825c99c8cBC6fDAACDdca21DC3Ec';
 const abi = contract.abi;
-const ethers = require('ethers');
 
 function App() {
   const [currentAccount, setCurrentAccount] = useState(null);
