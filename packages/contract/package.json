@@ -1,8 +1,6 @@
 {
   "name": "contract",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
   "private": true,
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
@@ -18,8 +16,5 @@
     "hardhat-gas-reporter": "^1.0.9",
     "solidity-coverage": "^0.8.2",
     "typechain": "^8.1.1"
-  },
-  "scripts": {
-    "test": "npx hardhat test"
   }
 }
